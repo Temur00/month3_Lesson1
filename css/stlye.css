@@ -1,0 +1,39 @@
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+
+@font-face {
+  font-family: "Orbitron";
+  src: url(../fonts/Orbitron-Regular.ttf);
+}
+
+:root {
+  --font-size: 10px;
+  font-family: "Orbitron";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header {
+  background: black;
+  background-size: 50%;
+}
+
+/* .gradient {
+  padding: 100px;
+}
+
+.conic {
+  width: 1000px;
+  height: 1000px;
+  background: conic-gradient(to right black, blue);
+} */

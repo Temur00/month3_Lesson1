@@ -1,0 +1,181 @@
+#LOGO {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+nav {
+  width: 1320px;
+  display: flex;
+  gap: 92px;
+  padding: 20px 0;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  align-items: center;
+}
+
+.nav-items {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  /* display: flex;
+  gap: 92px; */
+}
+
+.nav_top {
+  padding-left: 89.78px;
+  padding-right: 90.28px;
+  display: flex;
+  gap: 60px;
+}
+
+.nav_top :hover {
+  color: #fac422;
+  transition: 0.5s;
+}
+
+.navtop_items {
+  width: 56px;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.dark {
+  background-color: black;
+}
+
+.dark * {
+  color: white !important;
+}
+
+.dark header {
+  background-color: #bbbec1;
+}
+
+#moon {
+  fill: #000;
+}
+
+.dark #moon {
+  fill: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+#dark-light {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nav_buttons {
+  display: flex;
+  gap: 24px;
+}
+
+.contact_button {
+  width: 178px;
+  height: 62px;
+  flex-shrink: 0;
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.contact_button p {
+  padding: 16px 31px;
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.header_hero {
+  display: flex;
+}
+
+.htexts_part {
+  padding-top: 216px;
+  padding-left: 60px;
+}
+
+.fire_text {
+  display: flex;
+  width: 662px;
+  height: 32px;
+}
+
+.fire_text img {
+  width: 32px;
+  height: 32px;
+}
+
+.fire_text1 {
+  padding-top: 6px;
+  padding-left: 8px;
+  padding-bottom: 10px;
+  color: #57b8ff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  text-transform: uppercase;
+}
+
+.fire_text2 {
+  padding-top: 14px;
+  /* padding-left: 60px; */
+  color: #fff;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 86px; /* 119.444% */
+  text-transform: capitalize;
+}
+
+.fire_text3 {
+  padding-top: 45px;
+  color: #999;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+.header_buttons {
+  display: flex;
+  gap: 40px;
+  padding-top: 53px;
+  padding-bottom: 250px;
+}
+
+.header_buttons button {
+  width: 203px;
+  height: 70px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  text-transform: capitalize;
+  border: none;
+  background-color: transparent;
+}
+
+.header_buttons :hover {
+  transition: 0.5s;
+  background: #57b8ff;
+}
+
+.himages_part {
+  padding-top: 214px;
+  padding-bottom: 255px;
+}
